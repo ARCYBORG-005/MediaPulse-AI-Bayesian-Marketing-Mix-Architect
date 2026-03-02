@@ -15,3 +15,7 @@ lam_values   = posterior["saturation_lam"].mean(dim=["chain","draw"]).values
 
 # If beta/lam are scalar (same for all channels), you just reuse them:
 print("Beta:", beta_values, "Lambda:", lam_values)
+
+###output
+
+Beta: 0.6315066670562121 Lambda: 1.2272765348027808
