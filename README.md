@@ -1,6 +1,3 @@
-To impress a recruiter, your GitHub README needs to look like a **Senior Technical Case Study**, not just a collection of scripts. It should tell the story of how you solved a complex business problem, handled real-world "API breaking changes," and added an AI reasoning layer.
-
-Copy and paste this structure into your `README.md` file.
 
 ---
 
@@ -32,7 +29,7 @@ The system is built on a **Three-Layer Stack**:
 
 ---
 
-##  Senior-Level Engineering Challenges
+##  Challenges
 
 > **"The difference between a Junior and a Senior is how they handle the errors in the middle."**
 
@@ -49,12 +46,13 @@ The system is built on a **Three-Layer Stack**:
 Our model identified that Google Ads has a steeper initial efficiency ($\lambda = 1.22$), while Facebook hits a performance ceiling faster.
 **Action:** Reallocate 15% of saturated Facebook budget to Google to capture early-curve growth.
 
-### **2. Adstock Decay (Memory)**
+### **2. Adstock Decay 
 
 The model proved TV has a "Half-life" of 2.4 weeks.
 **Action:** Transition from "Always-On" TV to "Flighted" bursts to leverage the carryover effect and save 10% in waste.
 
 <img src="hypothesis_test(1).png" width="700">
+
 The "Null" Value ($0$): "I set my reference value to 0. If the entire distribution is to the right of 0, we have 100% certainty that one channel outperformed the other."The HDI (Highest Density Interval): "I used a 95% HDI. This shows the range where the 'true' difference between the channels likely lives."The Decision: "Based on the fact that $X\%$ of the distribution is above zero, we can reject the idea that these channels are performing equally. This justifies shifting budget toward the winner."
 
 ##  How to Run
@@ -69,12 +67,4 @@ streamlit run app.py
 
 
 
----
 
-### **Contact & Contribution**
-
-I built this to demonstrate the intersection of **Probabilistic Programming** and **Generative AI**. If you are a recruiter looking for a Senior Analyst who bridges the gap between raw math and business strategy, let's connect!
-
----
-
-**Would you like me to generate the `requirements.txt` file and a professional "Project Directory" tree to make the repo look organized?**
